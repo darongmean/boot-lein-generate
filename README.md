@@ -1,5 +1,9 @@
 # boot-lein-generate
 
+
+[![Clojars Project](https://img.shields.io/clojars/v/darongmean/boot-lein-generate.svg)](https://clojars.org/darongmean/boot-lein-generate)
+
+
 Generate a leiningen `project.clj` file.
 
 ## Usage
