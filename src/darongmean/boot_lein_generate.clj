@@ -4,7 +4,7 @@
             [boot.core :as core]
             [boot.util :as util]))
 
-(defn- generate-lein-project-file! [& {:keys [keep-project] :or {:keep-project true}}]
+(defn- generate-lein-project-file! [& {:keys [keep-project] :or {keep-project true}}]
   (let [pfile (io/file "project.clj")
         ; Only works when pom options are set using task-options!
         {:keys [project version]} (:task-options (meta #'boot.task.built-in/pom))
