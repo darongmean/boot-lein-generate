@@ -6,6 +6,10 @@
 
 Generate a leiningen `project.clj` file.
 
+## Status
+
+Abandoned Project. Please use https://github.com/onetom/boot-lein-generate instead.
+
 ## Usage
 
 Add boot-lein-generate to your build.boot dependencies and require the namespace:
