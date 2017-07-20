@@ -23,6 +23,12 @@ This ensures updating `project.clj` on every run of boot.
 This way we can add `project.clj` to our `.gitignore` and have IntelliJ+Cursive
 see the latest dependencies.
 
+## From the CLI
+
+```
+boot -d onetom/boot-lein-generate generate
+```
+
 ## License
 
 Copyright © 2016 Darong Mean
